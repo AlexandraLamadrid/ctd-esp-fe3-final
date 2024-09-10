@@ -1,12 +1,12 @@
 //import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home';
-import Contact from './Pages/Contact';
-import DentistDetail from './Pages/DentistDetail';
+import Contact from './Pages/Contact'; 
 import { GlobalProvider } from './Context/GlobalContext';
+import DentistDetail from './Pages/DentistDetail';
+
 
 function App() {
-  console.log('App rendered');
   return (
     <GlobalProvider>
       <Router>
@@ -14,6 +14,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/dentist/:id" element={<DentistDetail />} />
+          
         </Routes>
       </Router>
     </GlobalProvider>

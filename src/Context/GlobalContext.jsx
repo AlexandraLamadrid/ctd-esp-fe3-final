@@ -1,6 +1,7 @@
 import { createContext, useReducer, useContext } from 'react';
 import PropTypes from 'prop-types';
-import { initialState, reducer } from './Utils.js'; 
+import { initialState, reducer } from './Utils'; 
+
 
 export const GlobalContext = createContext();
 
