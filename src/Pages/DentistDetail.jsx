@@ -12,12 +12,12 @@ function DentistDetail() {
   useEffect(() => {
     axios.get(`https://jsonplaceholder.typicode.com/users/${id}`)
       .then(response => {
-        console.log(response.data); // Verifica los datos en la consola
+        console.log(response.data); 
         setDentist(response.data);
         setLoading(false);
       })
       .catch(error => {
-        console.error(error); // Verifica el error en la consola
+        console.error(error); 
         setError(error);
         setLoading(false);
       });

@@ -1,5 +1,5 @@
 //import React from 'react';
-import '../Style/Contact.css'; // Si tienes estilos específicos para este componente
+import '../Style/Contact.css'; 
 
 function Contact() {
   return (

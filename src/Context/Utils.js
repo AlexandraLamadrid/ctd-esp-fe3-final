@@ -1,4 +1,3 @@
-// Mueve aquí cualquier función o constante compartida que no esté relacionada con los componentes
 
 export const initialState = {
     theme: 'light',
